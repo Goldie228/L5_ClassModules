@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека - Демонстрация классов JavaScript</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Система управления библиотекой</h1>
+            <p>Демонстрация работы классов JavaScript: Library и Book</p>
+        </header>
+
+        <main>
+            <section class="controls">
+                <h2>Управление</h2>
+                <div class="button-group">
+                    <button id="runDemo">Запустить демонстрацию</button>
+                    <button id="clearOutput">Очистить вывод</button>
+                    <button id="addRandomBook">Добавить случайную книгу</button>
+                </div>
+            </section>
+
+            <section class="output">
+                <h2>Результаты выполнения</h2>
+                <div id="consoleOutput" class="console"></div>
+            </section>
+
+            <section class="library-info">
+                <h2>Информация о библиотеках</h2>
+                <div id="libraryInfo"></div>
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="../scripts/index.js?v=123"></script>
+</body>
+</html>
